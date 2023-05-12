@@ -1,0 +1,15 @@
+package day04scannerclass;
+
+import java.util.Scanner;
+
+public class Scanner01 {
+    public static void main(String[] args) {
+        //How to create an object?
+
+        //Class NAme   objectName   Assignment Operator   new keyword         constructor
+          Scanner        input                =               new Scanner(System.in);
+        System.out.println("Use your first name.....");
+        String name=input.next();
+        System.out.println("Your name is : "+name);
+    }
+}
